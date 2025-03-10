@@ -1,4 +1,4 @@
-## Welcome to my profile, you must be tired, please stay and rest for a while.
+## Hello world!
 
 <!--
 **godfrey-CK-lam/godfrey-CK-lam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
