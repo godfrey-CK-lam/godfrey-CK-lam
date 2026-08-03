@@ -1,5 +1,5 @@
 
-/* dammit, i'm not a web developer! */
+/* dammit, i'm not a web developer, so dont expect any miracles here */
 
 * {
     box-sizing: border-box;
@@ -11,6 +11,8 @@ body {
     margin: 0;
     min-height: 100vh;
 }
+
+/* how do you properly center a div? */
 
 .center {
     display: flex;
@@ -25,9 +27,11 @@ body {
     background-color: #1a1d24;
     border: 5px solid #2a2e37;
     font-size: 18px;
-    padding: 2%;
-    width: 80%;
+    padding: 1%;
+    width: 90%;
+    max-width: 1100px;
     margin-top: 20px;
+    border-radius: 25px;
 }
 
 
@@ -39,3 +43,23 @@ h1, h2, h3, h4 {
     color: #a5a7ad;
 }
 
+
+.bigtext {
+    font-size: 1.5rem;
+    content: 0%;
+    text-align: center;
+    
+}
+
+.h_line {
+    border-bottom: 6px solid darkorange;
+    width: 30%;
+    margin: auto;
+}
+
+
+.about {
+    width: 50%;
+    font-size: 18px;
+    text-align: left;
+}

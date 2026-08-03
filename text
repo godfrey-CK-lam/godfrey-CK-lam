@@ -1,46 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Godfrey Ching Kong Lam</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-</head>
-
-
-
-<body>
-
-    <div class="center">
-
-        <div class="bigtext">
-                <h1> Ching Kong Godfrey Lam</h1>
-                <h3> Software Developer specialising in Python and Backend Development </h4>
-            </div>
-  
-            <div class="h_line"></div>
-
-        <!-- The about me section-->
-        <h1 style="margin-bottom: 0"> About Me </h2>
-        
-        <div class="about">
-
-            <p> I am a 4th year student at Heriot-Watt University currently pursuing an MEng Software Engineering degree. 
-                I enjoy understanding how things work, then find ways to make them better.
-            </p>
-            <p> When I'm not programming and trying to resolve a bug that has seemingly broken everything everything else,
-                I spend time riding my motorcycle, find interesting things to take pictures of, playing games, or finding any way to not be productive.
-            </p>
-        </div>
-
-         <div class="h_line"></div>
-
-             <div class="bigtext">
-                <h2> My Projects</h1>
-                <h3> Things I have built, both inside and outside University</h3 >
-            </div>
-
-        <!-- Projects-->
+ <!-- Projects-->
         <div class="wrapper">
             <h3> A game of Hangman implemented in Java.</h3>
             <p> Used AWT Swing, and layouts to create a simple user-friendly GUI.</p>
@@ -92,22 +50,3 @@
             <p> A meaningful introduction to Software engineering and agile workflows.</p>
             <img src="Images/demo_taskman.png" alt="task manager used to manage a task" style="width:60%">
         </div>
-        
-            <br>
-           
-        <div class="wrapper">
-        
-            <a href="https://github.com/godfrey-CK-lam">A link to my GitHub</a>
-            <br>
-            <h2>Contact Me</h2>
-            <p><a href="mailto:godfreycklam@gmail.com">You can send me an email here. </a></p>
-            <a href="https://uk.linkedin.com/in/godfrey-lam-87681b29a?trk=profile-badge">Or check out my LinkedIn, I
-                would love to connect!</a>
-       
-         </div>
-
-    </div>
-
-</body>
-
-</html>
