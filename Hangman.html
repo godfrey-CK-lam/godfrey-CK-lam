@@ -1,9 +1,112 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
+<head>
+    <title> Hangman </title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+
+
+        p {
+            max-width: 60%;
+        }
+    </style>
+</head>
+
+
+
 <body>
 
-<h1>Hangman</h1>
-<p>Not implemented yet.</p>
+    <div class="center">
+
+        <!-- introduction-->
+        <div class="bigtext">
+            <h1> Hangman</h1>
+            <h3> Guess the letters of a word. </h3>
+        </div>
+
+        <div class="h_line"></div>
+
+        <br>
+       
+
+        <img src="Images/hangman1.png" style="margin: 15px; " alt="placeholder image"> 
+        <img src="Images/hangman2.png" style="margin: 15px; " alt="placeholder image"> 
+        
+        <p> A game of Hangman in progress. </p>
+    
+
+        <div class="h_line"></div>
+
+          <div class="bigtext">
+            <h3> What is it? </h3>
+        </div>
+
+        <p> This Hangman project was created as part of a university assignment, 
+            as such, less information will be available to avoid leaking hints. </p>
+        <p> A simple graphical hangman game where the player guesses letters of a randomly
+            selected word. If all the correct letters are guessed before the player runs out
+            of lives, they win, otherwise, they lose.
+        </p>
+
+        <p> As seen above, a simple graphical interface 
+            (which annoyingly doesnt depict the man himself) shows the state of the game. </p>
+
+         <div class="h_line"></div>
+
+          <div class="bigtext">
+            <h3> Technical Details </h3>
+        </div>
+
+        <p> This game was developed using Java and Swing for the GUI. </p>
+        <p> The interface uses Layouts to neatly organise parts of the GUI, and the players lives,
+            guesses and the current word are tracked.</p>
+        <p> This interface is updated as the game progresses.</p>
+
+        <div class="h_line"></div>
+
+         <div class="bigtext">
+            <h3> Challenges </h3>
+        </div>
+
+        <p> Managing coupling and cohesion was crucial to ensure the logic and GUI did not depend on each other.
+            The responsibility of each part had to belong to an appropriate class, and prevent specific methods being
+            responseible for the bulk of the logic in each.
+        </p>
+        <p> GUI synchronisation was another problem that was encountered, as the GUI dynamically updates with
+            player guesses. Multiple parts of the GUI had to change with each guess, so all logic relating to the game state
+            had to be updated before changing the GUI. The coupling and cohesion principles from above helped with this.
+        </p>
+
+
+        <div class="h_line"></div>
+
+           <div class="bigtext">
+            <h3> What I learnt </h3>
+        </div>
+
+        <p> Overall, this project helped me develop a deeper understanding of OOP principles, and how to 
+            apply its principles to a complete application </p>
+
+        <p> I also learned about coupling and cohesion principles, and how they influence the 
+            structure and maintainability of a program. Building the GUI with Swing also gave me practical experience
+            designing and creating them, organising components with interfaces.
+
+        </p>
+
+        <div class="h_line"></div>
+        
+        
+        <div class="contact-links">
+            <a href="index.html"> Back to Home</a>
+        </div>
+
+        <p> 2026 Ching Kong Godfrey Lam </p>
+
+    </div>
+
 
 </body>
-</html> 
+
+</html>

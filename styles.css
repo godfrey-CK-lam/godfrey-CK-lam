@@ -89,3 +89,8 @@ h1, h2, h3, h4 {
 .contact-links a:hover{
     color:orange;
 }
+
+img {
+    max-width: 60%;
+}
+
