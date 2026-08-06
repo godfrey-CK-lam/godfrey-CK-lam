@@ -1,9 +1,113 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
+<head>
+    <title> Image Processor </title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+
+
+        img {
+            width: 40%;
+        }
+
+        p {
+            max-width: 60%;
+        }
+    </style>
+</head>
+
+
+
 <body>
 
-<h1>Image Processor</h1>
-<p>Not implemented yet.</p>
+    <div class="center">
+
+        <!-- introduction-->
+        <div class="bigtext">
+            <h1> Image Processor </h1>
+            <h3> Make your pictures look funny. </h3>
+        </div>
+
+        <div class="h_line"></div>
+
+        <br>
+       
+
+        <img src="Images/dt.png" style="margin: 15px; " alt="placeholder image"> 
+        <img src="Images/dtProcessed.png" style="margin: 15px; " alt="placeholder image"> 
+        
+        <p> An unprocessed, and processed image. </p>
+    
+
+        <div class="h_line"></div>
+
+          <div class="bigtext">
+            <h3> What is it? </h3>
+        </div>
+
+        <p> This Image processor project was created as part of a university assignment, 
+            as such, less information will be available to avoid leaking hints. </p>
+        <p> An image processor, that applies a rotation and color normalisation filter to make it look different from the source.
+        </p>
+        <p> The image is then written to a new file, leaving the original one intact. </p>
+
+         <div class="h_line"></div>
+
+          <div class="bigtext">
+            <h3> Technical Details </h3>
+        </div>
+
+        <p> This processor was developed using exclusively C. </p>
+        <p> A proprietary image format is read in, and then processed by manipulating the color values of each pixel. </p>
+        <p> The image format and data itself are validated, to ensure a valid image is created, which is then written to a new file on disk</p>
+
+        <div class="h_line"></div>
+
+         <div class="bigtext">
+            <h3> Challenges </h3>
+        </div>
+
+        <p> Memory management is one of the main problems beginners in C (such as myself) run into, memory must be carefully managed to ensure
+            no leaks are present, or is not using more memory than necessary. To help debug memory errors, I used valgrind with the full leak checking option.
+        </p>
+        <p> Data truncation due to imprecise rounding is another problem I was unsure of how to solve. This can result in overflows or underflows, or incorrect values
+            , resulting in an image with weird side effects (like being far too oversaturated), I eventually came to the solution of just rounding and capping
+            color values to prevent these.
+        </p>
+         <p> Storing the image itself whilst its being processed was another problem, as data structures in C are more limited compared to other languages.
+            I decided on a 1D array for simplicity, using precise logic to manipulate values to match the CW spec.
+        </p>
+
+
+        <div class="h_line"></div>
+
+           <div class="bigtext">
+            <h3> What I learnt </h3>
+        </div>
+
+        <p> This was my first time working with C, I have come to learned to appreciate some of the creature comforts in more high level languages, 
+            such as classes and imports, in languages like Java or Python, as well as garbage collecters, as manually managing memory and pointers 
+            can be a massive headache. </p>
+
+        <p> This was also a good lesson in defensive programming, as small errors in the input or in the logic can crash the entire processor, so each step
+            had to be carefully verified and checked to ensure a robust implementation was created.
+
+        </p>
+
+        <div class="h_line"></div>
+        
+        
+        <div class="contact-links">
+            <a href="index.html"> Back to Home</a>
+        </div>
+
+        <p> 2026 Ching Kong Godfrey Lam </p>
+
+    </div>
+
 
 </body>
-</html> 
+
+</html>
